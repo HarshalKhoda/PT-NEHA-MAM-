@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int sum(int a,int b)
+{
+  return a+b;
+}
+int sub(int a ,int b)
+{
+  return a-b;
+}
+int main() {
+int a,b,r1,r2;
+clrscr();
+printf("enter 2 numbers");
+scanf("%d %d",&a,&b);
+r1=sum(a,b);
+r2=sub(a,b);
+printf("sumofnum=%d",r1);
+printf("subofnum=%d",r2);
+getch();
+}
