@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int fac(int n)
+{
+int fac=1,i;
+for(i=1;i<=n;i++)
+{
+fac=fac*i;
+}
+return  fac;
+}
+void main()
+{
+int n,result;
+clrscr();
+printf("enter number:");
+scanf("%d",&n);
+result=fac(n);
+printf("facofnum=%d",result);
+getch();
+}
