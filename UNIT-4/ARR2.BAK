@@ -1,0 +1,8 @@
+//program enter n element and find total and average of them
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a[100],n,i;
+printf("enter elements:");
+scanf("%d",&n);
